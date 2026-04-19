@@ -1,0 +1,761 @@
+{
+    "analysed_file": "auth.log",
+    "threshold_applied": 5,
+    "flagged_ip_count": 55,
+    "alerts": [
+        {
+            "ip_address": "193.10.22.45",
+            "failed_logins": 73,
+            "unknown_users": 0,
+            "total_attempts": 73,
+            "targeted_accounts": [
+                "root",
+                "admin"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.49",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "root",
+                "webmaster",
+                "dbadmin",
+                "admin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.18",
+            "failed_logins": 0,
+            "unknown_users": 10,
+            "total_attempts": 10,
+            "targeted_accounts": [
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.39",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "45.33.12.99",
+            "failed_logins": 86,
+            "unknown_users": 0,
+            "total_attempts": 86,
+            "targeted_accounts": [
+                "admin",
+                "root"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.48",
+            "failed_logins": 0,
+            "unknown_users": 11,
+            "total_attempts": 11,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "10.0.0.7",
+            "failed_logins": 0,
+            "unknown_users": 9,
+            "total_attempts": 9,
+            "targeted_accounts": [
+                "admin",
+                "ubuntu",
+                "dbadmin",
+                "webmaster"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.40",
+            "failed_logins": 0,
+            "unknown_users": 9,
+            "total_attempts": 9,
+            "targeted_accounts": [
+                "root",
+                "webmaster",
+                "admin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "10.0.0.9",
+            "failed_logins": 0,
+            "unknown_users": 6,
+            "total_attempts": 6,
+            "targeted_accounts": [
+                "webmaster",
+                "dbadmin",
+                "admin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.31",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "student",
+                "webmaster",
+                "dbadmin",
+                "admin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.36",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "10.0.0.19",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.46",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "root",
+                "webmaster",
+                "dbadmin",
+                "admin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.33",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.10",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "root",
+                "webmaster",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.41",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.30",
+            "failed_logins": 0,
+            "unknown_users": 16,
+            "total_attempts": 16,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.26",
+            "failed_logins": 0,
+            "unknown_users": 9,
+            "total_attempts": 9,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.11",
+            "failed_logins": 0,
+            "unknown_users": 11,
+            "total_attempts": 11,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "10.0.0.15",
+            "failed_logins": 0,
+            "unknown_users": 12,
+            "total_attempts": 12,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.28",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.24",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "ubuntu",
+                "admin",
+                "webmaster",
+                "dbadmin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.44",
+            "failed_logins": 0,
+            "unknown_users": 7,
+            "total_attempts": 7,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "10.0.0.8",
+            "failed_logins": 0,
+            "unknown_users": 10,
+            "total_attempts": 10,
+            "targeted_accounts": [
+                "webmaster",
+                "ubuntu",
+                "root"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "10.0.0.17",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.43",
+            "failed_logins": 0,
+            "unknown_users": 10,
+            "total_attempts": 10,
+            "targeted_accounts": [
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "10.0.0.13",
+            "failed_logins": 0,
+            "unknown_users": 10,
+            "total_attempts": 10,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.15",
+            "failed_logins": 0,
+            "unknown_users": 12,
+            "total_attempts": 12,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.37",
+            "failed_logins": 0,
+            "unknown_users": 9,
+            "total_attempts": 9,
+            "targeted_accounts": [
+                "root",
+                "ubuntu",
+                "admin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.22",
+            "failed_logins": 0,
+            "unknown_users": 11,
+            "total_attempts": 11,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "10.0.0.16",
+            "failed_logins": 0,
+            "unknown_users": 10,
+            "total_attempts": 10,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "10.0.0.5",
+            "failed_logins": 0,
+            "unknown_users": 13,
+            "total_attempts": 13,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "10.0.0.11",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.34",
+            "failed_logins": 0,
+            "unknown_users": 16,
+            "total_attempts": 16,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.42",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "webmaster",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.38",
+            "failed_logins": 0,
+            "unknown_users": 7,
+            "total_attempts": 7,
+            "targeted_accounts": [
+                "student",
+                "webmaster",
+                "root",
+                "admin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.32",
+            "failed_logins": 0,
+            "unknown_users": 6,
+            "total_attempts": 6,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "10.0.0.6",
+            "failed_logins": 0,
+            "unknown_users": 7,
+            "total_attempts": 7,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.23",
+            "failed_logins": 0,
+            "unknown_users": 11,
+            "total_attempts": 11,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "10.0.0.18",
+            "failed_logins": 0,
+            "unknown_users": 15,
+            "total_attempts": 15,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.45",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "10.0.0.10",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.12",
+            "failed_logins": 0,
+            "unknown_users": 9,
+            "total_attempts": 9,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "10.0.0.14",
+            "failed_logins": 0,
+            "unknown_users": 7,
+            "total_attempts": 7,
+            "targeted_accounts": [
+                "webmaster",
+                "root",
+                "admin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "10.0.0.12",
+            "failed_logins": 0,
+            "unknown_users": 11,
+            "total_attempts": 11,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.21",
+            "failed_logins": 0,
+            "unknown_users": 5,
+            "total_attempts": 5,
+            "targeted_accounts": [
+                "student",
+                "webmaster",
+                "ubuntu",
+                "admin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.20",
+            "failed_logins": 0,
+            "unknown_users": 9,
+            "total_attempts": 9,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.13",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.35",
+            "failed_logins": 0,
+            "unknown_users": 11,
+            "total_attempts": 11,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.27",
+            "failed_logins": 0,
+            "unknown_users": 10,
+            "total_attempts": 10,
+            "targeted_accounts": [
+                "webmaster",
+                "admin",
+                "root",
+                "ubuntu",
+                "dbadmin",
+                "student"
+            ],
+            "severity_level": "HIGH"
+        },
+        {
+            "ip_address": "192.168.1.25",
+            "failed_logins": 0,
+            "unknown_users": 7,
+            "total_attempts": 7,
+            "targeted_accounts": [
+                "webmaster",
+                "ubuntu",
+                "dbadmin",
+                "admin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.14",
+            "failed_logins": 0,
+            "unknown_users": 8,
+            "total_attempts": 8,
+            "targeted_accounts": [
+                "admin",
+                "ubuntu",
+                "webmaster",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.17",
+            "failed_logins": 0,
+            "unknown_users": 6,
+            "total_attempts": 6,
+            "targeted_accounts": [
+                "webmaster",
+                "ubuntu",
+                "root",
+                "student"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.16",
+            "failed_logins": 0,
+            "unknown_users": 6,
+            "total_attempts": 6,
+            "targeted_accounts": [
+                "admin",
+                "webmaster",
+                "ubuntu",
+                "dbadmin"
+            ],
+            "severity_level": "MEDIUM"
+        },
+        {
+            "ip_address": "192.168.1.19",
+            "failed_logins": 0,
+            "unknown_users": 5,
+            "total_attempts": 5,
+            "targeted_accounts": [
+                "webmaster",
+                "ubuntu",
+                "dbadmin"
+            ],
+            "severity_level": "MEDIUM"
+        }
+    ]
+}
